@@ -33,9 +33,11 @@
 }
 
 #start-btn {
+    border: none;
+    padding: 125px;
+    font-size: 50px;
     border-color: #73BA9B;
     color: white;
     background-color: #73BA9B;
-    font-size: 150px;
     border-radius: 50%;
 }
