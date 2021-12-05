@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Secular One';
+  src: url('https://fonts.googleapis.com/css?family=Secular One');
+}
+
+.social-media {
+  font-size: 2rem;
+}
+
+.social-media > i {
+  padding-right: 2rem;
+}
+
+.title {
+  font-family: 'Secular One';
+  font-size: 3rem;
+  color: #2E4057;
+  text-transform: uppercase;
+  border-bottom: solid .5rem #73ba9b;
+  letter-spacing: .5rem;
+  margin-top: 2rem;
+  line-height: 1rem;
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  background-image: url('../img/tree.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-bottom: solid .5rem #73ba9b;
+}
+
+.search-bar {
+  margin-top: 2rem;
+}
