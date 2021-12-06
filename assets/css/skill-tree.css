@@ -1,0 +1,39 @@
+.skill-tree {
+    margin-top: 5rem;
+    position: relative;
+}
+
+.leaf {
+    border-radius: 100%;
+    color: #ffffff;
+    position: absolute;
+    height:max-content;
+}
+
+.leaf-sm {
+    width: 7rem;
+    height: 7rem;
+    font-size: 3rem;
+}
+
+.leaf-md {
+    width: 10rem;
+    height: 10rem;
+    font-size: 5rem;
+}
+
+.leaf-lg {
+    width: 13rem;
+    height: 13rem;
+    font-size: 7rem;
+}
+
+.leaf-bg-green { background-color: #73BA9B; }
+.leaf-bg-red { background-color: #F37C96; }
+.leaf-bg-orange { background-color: #FFA800; }
+
+.line {
+    stroke-width: 2;
+    stroke: #AAAAAA;
+    stroke-dasharray: 0.5rem;
+}
