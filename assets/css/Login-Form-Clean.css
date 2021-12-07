@@ -42,6 +42,7 @@
   margin-top: 26px;
   text-shadow: none;
   outline: none !important;
+  cursor: pointer;
 }
 
 .login-clean form .btn-primary:hover, .login-clean form .btn-primary:active {

@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <meta name="description" content="The registration page for SkillTree. Here it is possible to create a free account">
+    <meta name="author" content="Scrumffed Org">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>HCI</title>
@@ -15,24 +18,25 @@
 <body style="height: 706px;">
     <div class="d-flex flex-column container" id="container">
         <div id="logo" class="d-flex p-2 justify-content-center">
-            <img src="./assets/img/hci_logo.png" alt="green skill tree logo" />
+            <a href="/">
+                <img src="./assets/img/hci_logo.png" alt="green skill tree logo" />
+            </a>
         </div>
         <div class="rf-register-form">
-            <form class="text-center rg-form" style="width: 405px;color: rgb(0,0,0);"><label class="form-label"
-                    style="margin-right: 400px;">Name</label>
-                <div class="rf-input-container"><label class="form-label"></label><input
-                        class="form-control rf-input-field" type="text" placeholder="Name"></div><label
-                    class="form-label" style="margin: 0px;margin-right: 400px;">Email</label>
+            <form method="GET" action="/plant_your_tree.html" class="text-center rg-form" style="width: 405px;color: rgb(0,0,0);">
+                <label class="form-label" style="margin-right: 400px;">Name</label>
+                <div class="rf-input-container"><label class="form-label"></label>
+                    <input class="form-control rf-input-field" type="text" placeholder="Name"></div>
+                    <label class="form-label" style="margin: 0px;margin-right: 400px;">Email</label>
                 <div class="rf-input-container"><input class="form-control rf-input-field" type="text"
                         placeholder="Email"></div><label class="form-label"
                     style="margin-right: 400px;">Password</label>
-                <div class="rf-input-container"><input class="form-control rf-input-field" type="password"
-                        placeholder="Password"></div><label class="form-label" style="margin-right: 276px;">Confirm
-                    password</label>
-                <div class="rf-input-container"><input class="form-control rf-input-field" type="password"
-                        placeholder="Confirm password"></div>
-                <button class="btn btn-primary rf-btn" type="button"
-                    style="background: #73ba9b;border-radius: 0;border-top-left-radius: 116;border-top-right-radius: 10;border-bottom-right-radius: 10;border-bottom-left-radius: 10;">Register</button>
+                <div class="rf-input-container">
+                    <input class="form-control rf-input-field" type="password" placeholder="Password"></div>
+                    <label class="form-label" style="margin-right: 276px;">Confirm password</label>
+                <div class="rf-input-container">
+                    <input class="form-control rf-input-field" type="password" placeholder="Confirm password"></div>
+                <button class="btn btn-primary rf-btn success-btn" type="submit">Register</button>
             </form>
         </div>
         <div id="socials" class="d-flex p-2 justify-content-center social-media">

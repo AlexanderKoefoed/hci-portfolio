@@ -22,12 +22,12 @@ function createBranches() {
 }
 
 function updateBanches() {
-  for (let branch of svg.querySelectorAll("line")) {
+  for (let branch of svg.querySelectorAll(".leaf")) {
     // Set position
     branch.setAttribute("x1", mainLeaf.offsetLeft + mainLeaf.offsetWidth / 2);
     branch.setAttribute("y1", mainLeaf.offsetTop + mainLeaf.offsetHeight / 2);
-    branch.setAttribute("x2", branch.offsetLeft + branch.offsetWidth / 2);
-    branch.setAttribute("y2", branch.offsetTop + branch.offsetHeight / 2);
+    branch.setAttribute("x2", leaf.offsetLeft + leaf.offsetWidth / 2);
+    branch.setAttribute("y2", leaf.offsetTop + leaf.offsetHeight / 2);
   }
 }
 
@@ -74,9 +74,13 @@ function addSkill() {
   container.appendChild(iconDiv);
   document.getElementById("skill-tree").prepend(container);
 
+  selectedSkills.push(skill);
+
   createBranches();
 
   skillList.querySelectorAll('option[value=' + skillName + ']')[0].remove;
+
+  window.sessionStorage.setItem('skills', selectedSkills);
 }
 
 window.onresize = () => {

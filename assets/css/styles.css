@@ -1,18 +1,16 @@
-@font-face {
-  font-family: 'Secular One';
-  src: url('https://fonts.googleapis.com/css?family=Secular One');
-}
+@import url('https://fonts.googleapis.com/css?family=Secular One');
 
 .social-media {
   font-size: 2rem;
 }
 
 .social-media > i {
-  padding-right: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .title {
-  font-family: 'Secular One';
+  font-family: "Secular One";
   font-size: 3rem;
   color: #2E4057;
   text-transform: uppercase;
@@ -20,6 +18,7 @@
   letter-spacing: .5rem;
   margin-top: 2rem;
   line-height: 1rem;
+  white-space: nowrap;
 }
 
 .logo {
@@ -33,4 +32,19 @@
 
 .search-bar {
   margin-top: 2rem;
+}
+
+.success-btn {
+  background-color: #73ba9b;
+  border-radius: 0.5rem;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 0.5rem;
+}
+
+.success-btn:hover {
+  background-color: #67a78b;
 }

@@ -20,11 +20,10 @@
     <div class="container">
         <div class="d-flex justify-content-center">
             <div class="d-flex flex-column">
-                <div class="d-flex flex-row">
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="title">Skill</div>
                     <div class="logo"></div>
-                    <div class="title">
-                        Plant Your Tree
-                    </div>
+                    <div class="title">Tree</div>
                 </div>
                 <div class="d-flex justify-content-center search-bar">
                     <div class="input-group rounded">
@@ -45,10 +44,12 @@
             </div>
         </div>
         <div class="d-flex flex-row-reverse">
-            <a href="/skill_tree.html" class="btn btn-primary btn-success">Next</a>
+            <a href="/" class="btn btn-primary btn-success">Next</a>
         </div>
     </div>
-    <script src="/assets/js/skillTree.js"></script>
+    <script>
+        console.log(window.sessionStorage.getItem('skills'));
+    </script>
 </body>
 
 </html>
