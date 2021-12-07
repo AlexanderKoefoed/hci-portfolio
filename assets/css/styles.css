@@ -35,7 +35,8 @@
 }
 
 .success-btn {
-  background-color: #73ba9b;
+  background-color: #285340;
+  font-weight: bold;
   border-radius: 0.5rem;
   padding: 15px 20px;
   border: none;
